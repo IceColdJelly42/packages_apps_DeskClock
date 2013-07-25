@@ -455,7 +455,7 @@ public class AlarmClock extends Activity implements LoaderManager.LoaderCallback
         mSelectedAlarm.alert = uri;
         // Save the last selected ringtone as the default for new alarms
         if (uri != null) {
-            RingtoneManager.setActualDefaultRingtoneUri(this, RingtoneManager.TYPE_ALARM, uri);
+            //RingtoneManager.setActualDefaultRingtoneUri(this, RingtoneManager.TYPE_ALARM, uri);
         }
         asyncUpdateAlarm(mSelectedAlarm, false);
     }
